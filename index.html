@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>weather</title>
+  </head>
+  <body>
+    <section class="headSection">
+      <div class="container">
+        <form class="form">
+          <input class="input" type="text" placeholder="Search for a city" autofocus />
+          <button class="submitButton" type="submit">SUBMIT</button>
+          <span class="errorMessage"></span>
+        </form>
+      </div>
+    </section>
+
+    <section class="ajax">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
